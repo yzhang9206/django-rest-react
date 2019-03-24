@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "dev": "webpack --mode development ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
-=======
     "dev": "webpack --mode development --watch ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
->>>>>>> 0b1f05beaa9aa3d2559b6e0589f4e1ee0c35fc8e
     "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
   },
   "keywords": [],
@@ -27,16 +23,11 @@
     "axios": "^0.18.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.5",
-<<<<<<< HEAD
     "react-alert": "^5.4.0",
     "react-alert-template-basic": "^1.0.0",
     "react-dom": "^16.8.5",
     "react-redux": "^6.0.1",
     "react-transition-group": "^2.7.0",
-=======
-    "react-dom": "^16.8.5",
-    "react-redux": "^6.0.1",
->>>>>>> 0b1f05beaa9aa3d2559b6e0589f4e1ee0c35fc8e
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"

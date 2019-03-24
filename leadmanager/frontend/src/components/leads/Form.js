@@ -57,4 +57,3 @@ export class Form extends Component {
 }
 
 export default connect(null, { addLead })(Form)
-
