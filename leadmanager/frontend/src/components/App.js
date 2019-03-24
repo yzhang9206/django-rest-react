@@ -15,10 +15,12 @@ const alertOptions = {
     position: 'top center'
 }
 
+
 class App extends Component {
     render() {
         return (
             <Provider store={store}>
+
                 <AlertProvider template={AlertTemplate} {...alertOptions}>
                     <Fragment>
                         <Header />
@@ -28,6 +30,7 @@ class App extends Component {
                         </div>
                     </Fragment>
                 </AlertProvider>
+
             </Provider>
 
         )
